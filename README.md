@@ -34,4 +34,5 @@ The skip-gram method of Natural Language Processing aims to learn word embedding
 This molecular feauturization method is based on a modified form of the same idea, where molecules are arranged in an order of ascending solubility values, and a MLP regressor is established to map an input molecule (Mol2Vec 300 dim feature vector) to the mean vector representation of molecules in the corresponding context window (two preceeding and two proceeding molecules in the sequence with lesser and greater solubility values), with the hidden layer representations being the final feature vector for the input molecule. This method essentially converts Mol2Vec's standard molecular feature vector to a property-aware vector, which can be used for predicting that property in regression or classification tasks.
 
 ![](images/skip-gram.png)
-![](images/mol-slip-gram)
+
+![](images/mol-skip-gram.png)
