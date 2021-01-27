@@ -41,3 +41,4 @@ The dataset of aqueous solubility values is compiled from the [AqSolDB dataset](
 ![](images/skip-gram.png)
 ![](images/mol-skip-gram.png)
 
+The models classify 9372 molecules into four solubility (logS) range classes: -13.17 to -5, -5 to -3, -3 to -1.3, -1.3 to 2.14. The two models using the two different featurization methods share the same hyper parameters, such that a comparison of their performances can be made. In the first iteration of the project, the standard Mol2Vec featurizer yields a test set classification accuracy of 70%, while the skip gram based feauturization method yeilds a marginally higher accuracy of 72%. 
